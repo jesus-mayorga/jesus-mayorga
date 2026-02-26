@@ -36,7 +36,7 @@
       <samp
         >[ <a href="">about me</a> .
         <a href="https://github.com/jesus-mayorga?tab=repositories">projects</a> .
-        <a href="mailto:j.mayorga.2025@alumnos.urjc.com">Contact</a> .
+        <a href="mailto:j.mayorga.2025@alumnos.urjc.com">Contact</a>
         ]</samp
       >
     </p>
