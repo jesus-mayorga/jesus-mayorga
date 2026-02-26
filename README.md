@@ -6,12 +6,12 @@
   <p align="center">
     <samp>
       <b>
-        <i>Welcome!</i>
+      <i>Welcome!</i>
       <br />
         -- I'm Jesús, CS & CE student --
       </b>
       <br />
-      <img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=e0af68&center=true&vCenter=true&width=435&lines=Curious+coder+|+Learning,+experimenting,+creating." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=e0af68&center=true&vCenter=true&width=435&lines=+Curious+coder+|+Learning,+experimenting,+creating." alt="Typing SVG" />
       <br />
       --[[ 
       <br />
@@ -36,7 +36,7 @@
       <samp
         >[ <a href="">about me</a> .
         <a href="https://github.com/jesus-mayorga?tab=repositories">projects</a> .
-        <a href="">contact</a> .
+        <a href="mailto:j.mayorga.2025@alumnos.urjc.com">Contact</a> .
         ]</samp
       >
     </p>
