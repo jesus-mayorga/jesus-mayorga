@@ -17,7 +17,7 @@
       <br />
       <img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=7aa2f7&center=true&vCenter=true&width=435&lines=Learning.+Developing.+Innovating." alt="Typing SVG" /> 
       <br />
-      ]]
+      ]]--
       <br />
     </samp>
   </p>
