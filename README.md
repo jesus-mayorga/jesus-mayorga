@@ -11,7 +11,7 @@
         -- I'm Jesús, CS & CE student --
       </b>
       <br />
-      <img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=e0af68&center=true&vCenter=true&width=435&lines= +Curious+coder+|+Learning,+experimenting,+creating." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=e0af68&center=true&vCenter=true&width=437&lines=Curious+coder+|+Learning,+experimenting,+creating." alt="Typing SVG" />
       <br />
       --[[ 
       <br />
