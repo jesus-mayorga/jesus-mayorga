@@ -1,82 +1,62 @@
 <div align="justify">
-  <!-- Profile -->
-  <p align="left">
-    <strong><samp>「</samp></strong>
-  </p>
 
-  <p align="center">
-    <samp>
-      <b><i>Hi, I'm Jesús Mayorga.</i></b>
-      <br />
-      Computer Science & Computer Engineering student
-      <br />
-      Focused on software development, problem solving, and continuous learning.
-    </samp>
-    <br /><br />
+<p align="left">
+<strong><samp>「</samp></strong>
+</p>
 
-    <img 
-      src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=e0af68&center=true&vCenter=true&width=600&lines=Building+reliable+software.;Learning+by+solving+real+problems.;Exploring+systems,+algorithms,+and+backend+development."
-      alt="Typing SVG"
-    />
-  </p>
+<p align="center">
+<samp>
+<b>
+<i>Hi, I'm Jesús Mayorga Juan.</i>
+<br />
+Computer Science & Computer Engineering student
+</b>
+<br />
+<br />
+<img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=7aa2f7&center=true&vCenter=true&width=760&lines=Applied+mathematics,+statistics,+and+computational+modeling.;Algorithm+design+and+computational+problem+solving.;Mathematical+thinking+applied+to+software+and+engineering." alt="Typing SVG" />
+<br />
+<img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=6272a3&center=true&vCenter=true&width=760&lines=Robotics,+from+software+to+electrical+and+electronic+engineering.;Artificial+intelligence+and+intelligent+systems.;Building+bridges+between+theory,+engineering,+and+real-world+applications." alt="Typing SVG" />
+<br />
+</samp>
+</p>
 
-  <p align="right">
-    <strong><samp>」</samp></strong>
-  </p>
+<p align="right">
+<strong><samp>」</samp></strong>
+</p>
 
-  <br />
+<br />
 
-  <details>
-    <summary>
-      <samp><b>More Info</b></samp>
-    </summary>
+<details>
+<summary>
+<samp><b>More Info</b></samp>
+</summary>
 
-  <br />
+<br />
 
-  <!-- Info -->
-  <p align="center">
-    <samp>
-      [
-      <a href="#about-me">about me</a> .
-      <a href="https://github.com/jesus-mayorga?tab=repositories">projects</a> .
-      <a href="mailto:j.mayorga.2025@alumnos.urjc.com">contact</a>
-      ]
-    </samp>
-  </p>
+<p align="center">
+<samp>
+[
+<a href="https://github.com/jesus-mayorga">about me</a> .
+<a href="https://github.com/jesus-mayorga?tab=repositories">projects</a> .
+<a href="mailto:j.mayorga.2025@alumnos.urjc.com">contact</a>
+]
+</samp>
+</p>
 
-  <h2></h2>
+<h2></h2>
 
-  <!-- GitHub Trophy -->
-  <div align="center">
-    <table>
-      <tr>
-        <td>
-          <img
-            align="center"
-            alt="GitHub Trophy"
-            src="https://github-trophies.vercel.app/?username=jesus-mayorga&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&row=2&column=3&margin-w=15&margin-h=15&no-frame=true&theme=onedark"
-          />
-        </td>
-      </tr>
-    </table>
-  </div>
+<p align="center">
+<img align="top" height="190" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jesus-mayorga&theme=github_dark" />
+&nbsp;&nbsp;
+<img align="top" height="190" alt="LeetCode Stats" src="https://leetcard.jacoblin.cool/JesusMJ?theme=dark&font=Iosevka" />
+</p>
 
-  <br />
+<br />
 
-  <!-- LeetCode Stats -->
-  <div align="center">
-    <table>
-      <tr>
-        <td>
-          <img
-            align="center"
-            alt="LeetCode Stats"
-            src="https://leetcard.jacoblin.cool/JesusMJ?theme=dark&font=Iosevka&ext=heatmap"
-          />
-        </td>
-      </tr>
-    </table>
-  </div>
+<p align="center">
+<img width="900" alt="GitHub Trophy" src="https://github-trophies.vercel.app/?username=jesus-mayorga&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&row=1&column=5&margin-w=20&margin-h=15&no-frame=true&theme=darkhub" />
+</p>
 
-  </details>
+</details>
+
 </div>
