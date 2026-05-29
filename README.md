@@ -1,28 +1,18 @@
+<p align="center">
+<img src="./banner.png" alt="Banner" width="100%" />
+</p>
+
 <div align="justify">
 
-<p align="left">
-<strong><samp>「</samp></strong>
-</p>
-
-<p align="center">
-<samp>
-<b>
-<i>Hi, I'm Jesús Mayorga Juan.</i>
+<div align="left"><img width="128" height="24" src="./corner-open.svg" alt="Opening mark" />
+</div>
+<div align="center">
+<img width="760" src="https://readme-typing-svg.demolab.com?font=Mononoki+Nerd+Font&weight=500&size=20&pause=1000&color=3CA8E4&center=true&vCenter=true&width=760&height=30&lines=Applied+mathematics,+statistics,+and+computational+modeling.;Algorithm+design+and+computational+problem+solving.;Mathematical+thinking+applied+to+software+and+engineering." alt="Title" />
 <br />
-Computer Science & Computer Engineering student
-</b>
-<br />
-<br />
-<img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=7aa2f7&center=true&vCenter=true&width=760&lines=Applied+mathematics,+statistics,+and+computational+modeling.;Algorithm+design+and+computational+problem+solving.;Mathematical+thinking+applied+to+software+and+engineering." alt="Typing SVG" />
-<br />
-<img src="https://readme-typing-svg.demolab.com?font=Iosevka&size=16&pause=1000&color=6272a3&center=true&vCenter=true&width=760&lines=Robotics,+from+software+to+electrical+and+electronic+engineering.;Artificial+intelligence+and+intelligent+systems.;Building+bridges+between+theory,+engineering,+and+real-world+applications." alt="Typing SVG" />
-<br />
-</samp>
-</p>
-
-<p align="right">
-<strong><samp>」</samp></strong>
-</p>
+<img width="760" src="https://readme-typing-svg.demolab.com?font=Mononoki+Nerd+Font&weight=400&size=15&pause=1000&color=C49A6C&center=true&vCenter=true&width=760&height=24&lines=Robotics,+from+software+to+electrical+and+electronic+engineering.;Artificial+intelligence+and+intelligent+systems.;Building+bridges+between+theory,+engineering,+and+real-world+applications." alt="Description" />
+</div>
+<div align="right"><img width="128" height="24" src="./corner-close.svg" alt="Closing mark" />
+</div>
 
 <br />
 
