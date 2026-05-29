@@ -24,8 +24,9 @@
 <br />
 
 <p align="center">
-<img align="top" width="49%" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jesus-mayorga&theme=github_dark" />
-<img align="top" width="49%" alt="LeetCode Stats" src="https://leetcard.jacoblin.cool/JesusMJ?font=Iosevka&width=450&height=180&border=0&radius=4&colors=0d1117,161b22,c9d1d9,8b949e,d0d7de,8b949e,6e7681,30363d" />
+<img align="top" height="170" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jesus-mayorga&theme=github_dark" />
+&nbsp;&nbsp;
+<img align="top" height="170" alt="LeetCode Stats" src="https://leetcard.jacoblin.cool/JesusMJ?font=Iosevka&width=550&height=220&border=0&radius=4&colors=0d1117,161b22,c9d1d9,8b949e,d0d7de,8b949e,6e7681,30363d" />
 </p>
 
 <br />
