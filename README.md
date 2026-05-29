@@ -24,15 +24,15 @@
 <br />
 
 <p align="center">
-<img align="top" height="170" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jesus-mayorga&theme=transparent" />
-&nbsp;&nbsp;
-<img align="top" height="170" alt="LeetCode Stats" src="https://leetcard.jacoblin.cool/JesusMJ?font=Iosevka&width=550&height=220&border=0&radius=4&colors=23282f,23282f,cdd6f4,bac2de,fab387,a6e3a1,f9e2af,f38ba8" />
+<img width="100%" alt="GitHub Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jesus-mayorga&custom_title=Jesus%20Mayorga%27s%20Contribution%20Graph&bg_color=00000000&color=c9d1d9&line=8b949e&point=d0d7de&area=true&area_color=8b949e&hide_border=true" />
 </p>
 
 <br />
 
 <p align="center">
-<img width="100%" alt="GitHub Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jesus-mayorga&custom_title=Jesus%20Mayorga%27s%20Contribution%20Graph&bg_color=00000000&color=c9d1d9&line=8b949e&point=d0d7de&area=true&area_color=8b949e&hide_border=true" />
+<img align="top" height="170" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jesus-mayorga&theme=transparent" />
+&nbsp;&nbsp;
+<img align="top" height="170" alt="LeetCode Stats" src="https://leetcard.jacoblin.cool/JesusMJ?font=Iosevka&width=550&height=220&border=0&radius=4&colors=22272e,22272e,cdd6f4,bac2de,fab387,a6e3a1,f9e2af,f38ba8" />
 </p>
 
 </details>
