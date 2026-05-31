@@ -50,6 +50,7 @@
 
   <br />
 
+  <!-- Contribution graph -->
   <p align="center">
     <img
       src="https://github-readme-activity-graph.vercel.app/graph?username=jesus-mayorga&custom_title=Jesus%20Mayorga%27s%20Contribution%20Graph&bg_color=00000000&color=c9d1d9&line=8b949e&point=d0d7de&area=true&area_color=8b949e&hide_border=true"
