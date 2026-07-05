@@ -1,8 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-labelledby="title description">
+<!--
+  EDITING QUICK REFERENCE
+
+  Each project is one <g class="project-row"> block.
+
+  ADD A PROJECT
+  1. Duplicate an entire project-row block.
+  2. Give it a unique id.
+  3. Increase translate(0 Y) by 40:
+       Project 1: translate(0 0)
+       Project 2: translate(0 40)
+       Project 3: translate(0 80)
+  4. Increase the final viewBox value using:
+       190 + (project count - 1) * 40
+
+     Examples:
+       1 project  -> viewBox="0 0 1000 190"
+       2 projects -> viewBox="0 0 1000 230"
+       3 projects -> viewBox="0 0 1000 270"
+
+  CHANGE A STATUS
+    class="status-active"          text="ACTIVE"
+    class="status-second-priority" text="SECOND PRIORITY"
+    class="status-paused"          text="PAUSED"
+
+  CHANGE PROGRESS
+    Each completed segment represents 10%.
+    Add the corresponding segment commands to a progress-filled path,
+    then update the percentage text. See the examples beside the row below.
+
+  There is no project limit. The bottom frame follows the viewBox height.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img" aria-labelledby="title description">
   <title id="title">Working on projects</title>
   <desc id="description">Current project status and progress</desc>
 
   <style>
+    /* Typography */
     .text {
       font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
       font-weight: 700;
@@ -29,44 +62,42 @@
       font-size: 14px;
     }
 
-    .status-active .status-fill {
-      fill: #78a870;
+    /* Status themes */
+    .status-active {
+      --status-color: #78a870;
+      --status-text-color: #a8d090;
     }
 
-    .status-active .status-stroke {
-      stroke: #78a870;
+    .status-second-priority {
+      --status-color: #d6b85a;
+      --status-text-color: #e2cd83;
     }
 
-    .status-active .status-text {
-      fill: #a8d090;
+    .status-paused {
+      --status-color: #c65f5f;
+      --status-text-color: #dc8585;
     }
 
-    .status-second-priority .status-fill {
-      fill: #d6b85a;
+    .status-fill {
+      fill: var(--status-color);
     }
 
-    .status-second-priority .status-stroke {
-      stroke: #d6b85a;
+    .status-stroke {
+      stroke: var(--status-color);
     }
 
-    .status-second-priority .status-text {
-      fill: #e2cd83;
+    .status-text {
+      fill: var(--status-text-color);
     }
 
-    .status-paused .status-fill {
-      fill: #c65f5f;
-    }
-
-    .status-paused .status-stroke {
-      stroke: #c65f5f;
-    }
-
-    .status-paused .status-text {
-      fill: #dc8585;
+    /* Progress bar */
+    .progress-frame,
+    .progress-segment,
+    .progress-filled {
+      fill: none;
     }
 
     .progress-frame {
-      fill: none;
       stroke: #456c4c;
       stroke-width: 1;
     }
@@ -82,11 +113,41 @@
       stroke-width: 2;
       opacity: 1;
     }
+
+    /* Structural lines */
+    .accent-line {
+      fill: none;
+      stroke: #5f9368;
+      stroke-width: 2;
+    }
+
+    .divider {
+      stroke: #456c4c;
+      stroke-width: 1;
+    }
   </style>
 
-  <path d="M18 32V14H246" fill="none" stroke="#5f9368" stroke-width="2"/>
-  <path d="M754 176H982V158" fill="none" stroke="#5f9368" stroke-width="2"/>
+  <!-- Reusable components -->
+  <defs>
+    <g id="progress-track">
+      <path class="progress-frame" d="M0 0H194 M0-4V4 M194-4V4"/>
+      <path
+        class="progress-segment"
+        d="M3 0H17 M22 0H36 M41 0H55 M60 0H74 M79 0H93
+           M98 0H112 M117 0H131 M136 0H150 M155 0H169 M174 0H191"
+      />
+    </g>
+  </defs>
 
+  <!-- Decorative frame -->
+  <path class="accent-line" d="M18 32V14H246"/>
+
+  <!-- Anchored automatically to the bottom of the current viewBox. -->
+  <svg x="0" y="100%" width="1000" height="0" overflow="visible">
+    <path class="accent-line" d="M754-14H982V-32"/>
+  </svg>
+
+  <!-- Header -->
   <circle cx="42" cy="34" r="4" fill="#a8d090"/>
   <text class="text title" x="58" y="41">WORKING ON PROJECTS</text>
 
@@ -95,57 +156,43 @@
   <text class="text label" x="508" y="82">PROGRESS</text>
   <text class="text label" x="812" y="82">NEXT STEP</text>
 
-  <line x1="58" y1="99" x2="942" y2="99" stroke="#456c4c" stroke-width="1"/>
-
-  <text class="text value" x="58" y="133">clic</text>
+  <line class="divider" x1="58" y1="99" x2="942" y2="99"/>
 
   <!--
-    STATUS MANUAL
+    PROJECT ROWS
 
-    Change only the class of the group and the text inside it:
-
-    ACTIVE:
-      class="status-active"
-      text: ACTIVE
-
-    SECOND PRIORITY:
-      class="status-second-priority"
-      text: SECOND PRIORITY
-
-    PAUSED:
-      class="status-paused"
-      text: PAUSED
+    Duplicate the complete block below to add a project.
+    Keep every id unique and follow the translate/viewBox guide above.
   -->
-  <g id="project-status" class="status-paused">
-    <circle class="status-fill" cx="311" cy="127" r="5"/>
-    <circle class="status-stroke" cx="311" cy="127" r="9" fill="none" stroke-width="1" opacity=".45"/>
-    <text class="text value status-text" x="329" y="133">PAUSED</text>
-  </g>
 
-  <!--
-    PROGRESS MANUAL
+  <!-- Project 1 -->
+  <g id="project-clic" class="project-row" transform="translate(0 0)">
+    <!-- Project name -->
+    <text class="text value" x="58" y="133">clic</text>
 
-    Each line represents 10 percent. Add the class "progress-filled"
-    to the segments that should appear completed and update the percentage.
-  -->
-  <g id="project-progress" transform="translate(508 126)">
-    <path class="progress-frame" d="M0 0H194"/>
-    <path class="progress-frame" d="M0-4V4M194-4V4"/>
-
-    <g fill="none">
-      <path class="progress-segment" d="M3 0H17"/>
-      <path class="progress-segment" d="M22 0H36"/>
-      <path class="progress-segment" d="M41 0H55"/>
-      <path class="progress-segment" d="M60 0H74"/>
-      <path class="progress-segment" d="M79 0H93"/>
-      <path class="progress-segment" d="M98 0H112"/>
-      <path class="progress-segment" d="M117 0H131"/>
-      <path class="progress-segment" d="M136 0H150"/>
-      <path class="progress-segment" d="M155 0H169"/>
-      <path class="progress-segment" d="M174 0H191"/>
+    <!-- Status: status-active | status-second-priority | status-paused -->
+    <g class="status-active">
+      <circle class="status-fill" cx="311" cy="127" r="5"/>
+      <circle class="status-stroke" cx="311" cy="127" r="9" fill="none" stroke-width="1" opacity=".45"/>
+      <text class="text value status-text" x="329" y="133">PAUSED</text>
     </g>
-  </g>
-  <text id="progress-value" class="text muted" x="716" y="131">0%</text>
 
-  <text class="text value" x="812" y="133">Initialize</text>
+    <!-- Progress track -->
+    <use href="#progress-track" x="508" y="126"/>
+
+    <!--
+      Completed progress segments:
+        10%: M3 0H17
+        20%: M3 0H17 M22 0H36
+        30%: M3 0H17 M22 0H36 M41 0H55
+
+      Continue with the segment coordinates defined in #progress-track.
+      For 0%, leave this group empty.
+    -->
+    <g class="completed-progress" transform="translate(508 126)"/>
+    <text class="text muted" x="716" y="131">20%</text>
+
+    <!-- Next step -->
+    <text class="text value" x="812" y="133">Another refactor</text>
+  </g>
 </svg>
