@@ -189,10 +189,13 @@
       Continue with the segment coordinates defined in #progress-track.
       For 0%, leave this group empty.
     -->
-    <g class="completed-progress" transform="translate(508 126)"/>
+    <g class="completed-progress" transform="translate(508 126)">
+      <path class="progress-filled" d="M3 0H17 M22 0H36"/>
+    </g>
     <text class="text muted" x="716" y="131">20%</text>
 
     <!-- Next step -->
     <text class="text value" x="812" y="133">Another refactor</text>
   </g>
 </svg>
+
