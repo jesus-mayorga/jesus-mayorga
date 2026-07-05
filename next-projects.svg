@@ -174,7 +174,7 @@
     <g class="status-active">
       <circle class="status-fill" cx="311" cy="127" r="5"/>
       <circle class="status-stroke" cx="311" cy="127" r="9" fill="none" stroke-width="1" opacity=".45"/>
-      <text class="text value status-text" x="329" y="133">PAUSED</text>
+      <text class="text value status-text" x="329" y="133">ACTIVE</text>
     </g>
 
     <!-- Progress track -->
